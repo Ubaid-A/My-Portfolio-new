@@ -1,0 +1,180 @@
+
+
+.navbar{
+    background-color: #92a2ab;
+    font-size: 18px; 
+}
+.navbar .navbar-nav{
+    padding-left: 30px;
+    gap: 1.5rem;
+}
+.navbar .navbar-nav .nav-item a{
+    transition: 0.5s !important;
+}
+.navbar .navbar-nav .nav-item a:hover{
+    color: rgb(42, 55, 61) !important;
+    font-weight: bold !important;
+}
+
+ /* logo  */
+#logo-name{
+    transition: 0.3s;
+}
+#logo-name:hover{
+    font-weight: bold;
+    color: white;
+}
+ 
+/* social  icons  */
+.social-icons{
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.social-icons:hover{
+    color: black;
+    font-size: 20px;
+}
+
+/* home h1 text  */
+/* home bg  */
+#banner{
+    background-image: url(./images/bg1.png);
+    background-position: center;
+    background-size: cover;
+
+}
+#prof-img{
+    opacity: 0.5;
+}
+
+#home-h1{
+    font-weight: bold;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(45, 43, 55);
+  
+}    
+#home-h5{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(14, 77, 92);
+  
+}
+
+/* home project btn  */
+#btn-projects a{
+    text-decoration: none;
+    color: black;
+}
+#btn-projects a:hover{
+    color: white;
+}
+#btn-projects{
+    border: 1px solid rgb(102, 50, 50);
+    transition: 0.3s;
+}
+#btn-projects:hover{
+    background-color: #333a3e;
+    color: #edeff0;
+    outline: 0;
+}
+
+/* home section completed  */
+
+/* our servecies  */
+.services-sec{
+    background-color: #f1f3f5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.ser-h2{
+    padding: 15px;
+    color: rgb(30, 30, 39);
+}
+/* @media only screen and (max-width: 767px) {
+} */
+
+/* progess bar  */
+#prog-id{
+    /* background-color: #dce1e5; */
+    background-image: url(./images/ourserv.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+/* about me us page  */
+#aboutme{
+    background-color: #f1f3f5;
+}
+@media only screen and (max-width: 760px) {
+    #img-about{
+        padding-bottom: 20px;
+    }
+
+}
+/* contact us  */
+#contact-text{
+    background-image: url(./images/contactpgg.png);
+    background-position: center;
+    background-size: cover;
+}
+#btn-submit{
+    border: 1px solid rgb(96, 90, 90);
+    transition: 0.3s;
+
+}
+#btn-submit:hover{
+    background-color: #1b93d8;
+    color: #edeff0;
+    outline: 0;
+}
+
+
+/* FOOTER  */
+#footer{
+    background-color: #1b1e1f;
+}
+#footer ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    gap: 2rem;
+    color: white;
+    transition: 0.5s;
+
+}
+.social-icons-footer{
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.social-icons-footer:hover{
+    color: rgb(241, 242, 244);
+}
+
+
+
+#copyright{
+    color: white;
+    text-align: center;
+}
+
+/* quick links  */
+.quick-links li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.quick-links li a:hover{
+    
+    color: orangered;
+}
